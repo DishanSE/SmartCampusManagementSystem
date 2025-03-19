@@ -170,7 +170,7 @@ $pageTitle = "Admin Dashboard";
         <div class="main-content">
             <div class="header">
                 <h2><?php echo $pageTitle; ?></h2>
-                <a href="student/register_student.php" class="btn">Register New Student</a>
+                <a href="../scheduling/admin/login.php" class="btn">Scheduling</a>
             </div>
             
             <!-- Stats Cards -->
