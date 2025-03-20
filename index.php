@@ -195,8 +195,6 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
                 <h1>SCMS</h1>
                 <div class="nav-links">
                     <a href="index.php">Home</a>
-                    <a href="about.php">About Us</a>
-                    <a href="contact.php">Contact</a>
                     <a href="login.php" class="login-btn">Login</a>
                 </div>
             </nav>
@@ -206,7 +204,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h2>Welcome to Our Smart Campous Management System</h2>
+            <h2>Welcome to our Smart Campus Management System</h2>
             <a href="login.php" class="cta-button">Get Started</a>
         </div>
     </section>
@@ -216,7 +214,7 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2025 Learning Management System. All rights reserved.</p>
+            <p>&copy; 2025 Smart Campus Management System. All rights reserved.</p>
         </div>
     </footer>
 </body>

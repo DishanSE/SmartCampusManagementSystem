@@ -180,7 +180,7 @@ $courses = $stmt->get_result();
         <!-- Sidebar -->
         <div class="sidebar">
             <div class="sidebar-header">
-                <h3>LMS Lecturer</h3>
+                <h3>SCMS Lecturer</h3>
                 <p><?php echo $_SESSION['first_name'] . ' ' . $_SESSION['last_name']; ?></p>
             </div>
             <ul class="sidebar-menu">
@@ -198,6 +198,7 @@ $courses = $stmt->get_result();
         <div class="main-content">
             <div class="header">
                 <h2><?php echo $pageTitle; ?></h2>
+                <a href="https://teams.microsoft.com/" target="_blank" class="btn">Chat</a>
             </div>
             
             <?php if ($courses->num_rows > 0): ?>

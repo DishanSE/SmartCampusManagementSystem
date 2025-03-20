@@ -241,7 +241,7 @@ $assignments = $assignmentStmt->get_result();
         <!-- Sidebar -->
         <div class="sidebar">
             <div class="sidebar-header">
-                <h3>LMS Student</h3>
+                <h3>SCMS Student</h3>
                 <p><?php echo $_SESSION['first_name'] . ' ' . $_SESSION['last_name']; ?></p>
             </div>
             <ul class="sidebar-menu">
@@ -260,6 +260,7 @@ $assignments = $assignmentStmt->get_result();
         <div class="main-content">
             <div class="header">
                 <h2>Welcome, <?php echo $_SESSION['first_name']; ?>!</h2>
+                <a href="https://teams.microsoft.com/" target="_blank" class="btn">Chat</a>
             </div>
             
             <?php if ($courses->num_rows > 0): ?>

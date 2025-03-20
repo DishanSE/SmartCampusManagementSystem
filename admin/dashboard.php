@@ -17,7 +17,7 @@ $pageTitle = "Admin Dashboard";
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LMS - <?php echo $pageTitle; ?></title>
+    <title>SCMS - <?php echo $pageTitle; ?></title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <style>
         .dashboard-container {
@@ -154,7 +154,8 @@ $pageTitle = "Admin Dashboard";
             </div>
             <ul class="sidebar-menu">
                 <li><a href="dashboard.php" class="active">Dashboard</a></li>
-                <li><a href="page.php">Event</a></li>
+                <li><a href="page.php">Manage Event</a></li>
+                <li><a href="resource.php">Manage Resource</a></li>
                 <li><a href="users.php">Manage Users</a></li>
                 <li><a href="courses.php">Manage Courses</a></li>
                 <li><a href="lecturer/lecturers.php">Manage Lecturers</a></li>
@@ -171,6 +172,7 @@ $pageTitle = "Admin Dashboard";
             <div class="header">
                 <h2><?php echo $pageTitle; ?></h2>
                 <a href="../scheduling/admin/login.php" class="btn">Scheduling</a>
+                <a href="https://teams.microsoft.com/" target="_blank" class="btn">Chat</a>
             </div>
             
             <!-- Stats Cards -->

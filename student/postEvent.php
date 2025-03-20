@@ -18,7 +18,10 @@
         <div class="menu">
             <ul>
                 <li><a href="postEvent.php" class="filter active">Post Event</a></li>
-                <li><a href="getEvents.php" class="filter">My Events</a></li>
+                <li><a href="getEvents.php" class="filter">My Events</a></li>                
+                <li><a href="postEvent.php" class="filter ">Post Request</a></li>
+                <li><a href="postEvent.php" class="filter ">My Request</a></li>
+                <li><a href="getEvents.php" class="filter">Class Schedule</a></li>
             </ul>
         </div>
         <div class="buttons">
@@ -36,7 +39,7 @@
                     <?php echo $disableField?>
                 />
                 <h5 class="form-error" id="studentNameE"><h5>
-                <h4> Matric Number </h4>
+                <h4> Student ID </h4>
                 <input 
                     type="text" 
                     name="matic"
@@ -73,16 +76,13 @@
                     name="venue"
                     id="venue"
                 >
-                    <option>Bethel Activity Hall</option>
-                    <option>Samuel Activity Hall</option>
-                    <option>Royal Activity Hall</option>
-                    <option>Crystal Activity Hall</option>
-                    <option>Platinum Activity Hall</option>
-                    <option>FAAD Activity Hall</option>
-                    <option>Welch Activity Hall</option>
+                    <option>Cafeteria</option>
+                    <option>Library</option>
+                    <option>Lecture Hall</option>
+                    <option>Computer Lab</option>
+                    <option>Parking Area</option>
+                    <option>Playground</option>
                     <option>Stadium</option>
-                    <option>CIT</option>
-                    <option>WRA</option>
                 </select>
                 <h5 class="form-error" id="venueE"></h5>
                 <h4>Event Description</h4>

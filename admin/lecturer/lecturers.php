@@ -83,6 +83,8 @@ $pageTitle = "Manage Lecturers";
             </div>
             <ul class="sidebar-menu">
                 <li><a href="../dashboard.php">Dashboard</a></li>
+                <li><a href="page.php">Manage Event</a></li>
+                <li><a href="resource.php">Manage Resource</a></li>
                 <li><a href="../users.php">Manage Users</a></li>
                 <li><a href="../courses.php">Manage Courses</a></li>
                 <li><a href="lecturers.php" class="active">Manage Lecturers</a></li>

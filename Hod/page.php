@@ -18,6 +18,7 @@
         <div class="menu">
             <ul>
                 <li><span id="0" class="filter active">All Events</span></li>
+                <li><span id="0" class="filter">All Resources</span></li>
                 <li><span id="1" class="filter">Admin Approved</span></li>
                 <li><span id="2" class="filter">Admin Pending</span></li>
                 <li><span id="3" class="filter">Admin Rejected</span></li>
@@ -26,6 +27,7 @@
         <div class="buttons">
             <a href="#" class="button"><?php echo $activeUser ?></a>
             <a href="login.php" class="button">Logut</a>
+            <a href="https://teams.microsoft.com/" target="_blank" class="button">Chat</a>
         </div>
     </header>
     <div id="section">
